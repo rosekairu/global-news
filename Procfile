@@ -1,1 +1,1 @@
-gunicorn "app:create_app('development')"
+gunicorn manage:app
